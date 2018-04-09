@@ -25,7 +25,8 @@ int main() {
 	int r;
 	jsmn_parser p;
 	jsmntok_t t[128]; /* We expect no more than 128 tokens */
-
+	printf("%s",JSON_STRING);
+	printf("\n====\n");
 	jsmn_init(&p);
 	r = jsmn_parse(&p, JSON_STRING, strlen(JSON_STRING), t, sizeof(t)/sizeof(t[0]));
 	if (r < 0) {
