@@ -3,7 +3,6 @@
 #include <string.h>
 #include "../jsmn.h"
 
-//git commit 실습중
 
 /*
  * A small example of jsmn parsing when JSON structure is known and number of
